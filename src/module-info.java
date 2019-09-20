@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author groot
+ *
+ */
+module javaExampleProject {
+}
