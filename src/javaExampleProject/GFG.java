@@ -1,8 +1,6 @@
 package javaExampleProject;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class GFG {
 	public static void main (String[] args) {
@@ -24,5 +22,6 @@ class GFG {
 		        System.out.println(evenSum+" "+oddSum);
 		    }
 		}
+		sc.close();
 	}
 }
