@@ -23,6 +23,14 @@ public class StringMethodsDemo {
 		System.out.println(s1.equals(s2));
 		System.out.println(s1.equals(s3));
 		System.out.println(s1.equalsIgnoreCase(s2));
+		System.out.println("first index of H: "+s.indexOf('H'));
+		System.out.println("LAst index of H: "+s.lastIndexOf('H'));
+		System.out.println("Substring: "+s.substring(2, 7));
+		System.out.println(s.concat(" jyoti"));
+		String s4="Jyoti Prakash Sahoo".replace("Jyoti", "Smruti");
+		System.out.println(s4);
+		System.out.println("lower case: "+s4.toLowerCase());
+		System.out.println("upper case: "+s4.toUpperCase());
 		
 	}
 
