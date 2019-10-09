@@ -1,2 +1,1 @@
-# javaExamples
-This repo is for java basic examples.
+This repo is for my learning purpose. It contains all the simple java programs.

@@ -16,7 +16,7 @@ public class OverloadingDemo3 {
 		Test3 t=new Test3();
 		t.m1("hi");
 		t.m1(new StringBuffer("hii"));
-		//t.m1(null); ----> it gives ambiguity error as both string and stringbuffer are child class of object class.
+		//t.m1(null); ----> it gives ambiguity error as both string and stringbuffer are child class of object class. and there is no direct relation between string and stringbuffer
 		
 	}
 

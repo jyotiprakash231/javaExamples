@@ -16,6 +16,8 @@ public class OverloadingDemo2 {
 		Test2 t=new Test2();
 		t.m1(t);
 		t.m1("hi");
+		String s=new String("jyoti");
+		t.m1(s);//represent child class
 		//object is parent class and string is a child class of object.here method resolution occure according to child class
 		t.m1(null);// represent child class method
 		t.m1(3);//as it is a integer object(wrapper class)
