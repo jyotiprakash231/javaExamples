@@ -1,7 +1,8 @@
 package javaExampleProject.ThreadDemo;
 
-class MyThread3 extends Thread {
+class MyThread4 extends Thread {
 	public void start() {
+		super.start();
 		System.out.println("start() method");
 	}
 
@@ -10,9 +11,10 @@ class MyThread3 extends Thread {
 	}
 }
 
-public class ThreadDemo3 {
+class ThreadDemo4 {
 	public static void main(String arg[]) {
-		MyThread3 t = new MyThread3();
-		t.start(); // it acts as a normal method.
+		MyThread4 t = new MyThread4();
+		t.start(); // it starts the thread
+		System.out.println("main method");
 	}
 }
