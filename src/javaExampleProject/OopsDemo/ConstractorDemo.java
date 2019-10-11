@@ -24,8 +24,11 @@ public class ConstractorDemo extends con {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//ConstractorDemo c=new ConstractorDemo();
+		ConstractorDemo c=new ConstractorDemo();// call parent class constructor as child constractor's first statement super().
 		ConstractorDemo d=new ConstractorDemo("chiku");
+		con e=new con();
+		con f=new con(76);
+		con g=new con("chiku");
 		
 		
 	}
